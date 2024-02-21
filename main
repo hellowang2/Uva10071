@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{   int v2=0;
+    int t=0;
+    while(scanf("%d %d",&v2,&t)!=EOF){
+        int ans=0;
+        ans=2*v2*t;
+        printf("%d\n",ans);
+        
+    }
+    return 0;
+}
